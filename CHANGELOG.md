@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [unreleased]
 
+## [2.3.0] - 2025-11-23
+
+### Added
+* Added GitHub Actions workflow to build and publish image to GitHub Container Registry (ghcr.io) on tag creation.
+
 ### Fixed
 * Broken links in README, both on GitHub and Docker Hub ([#29](https://github.com/ehough/docker-nfs-server/issues/29), [#35](https://github.com/ehough/docker-nfs-server/issues/35))
 
