@@ -43,5 +43,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:${{ env.TAG }}
+            ghcr.io/${{ github.repository }}:${{ env.IMAGE_TAG }}
             ghcr.io/${{ github.repository }}:latest
